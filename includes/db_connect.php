@@ -1,7 +1,7 @@
 <?php
 $username = 'satgahve_jayesh';
 $password = 'sihvit123';
-$servername = 'localhost';
+$servername = 'satgaonbhosle.org';
 $database = 'satgahve_healthinsurance';
 
 $conn = mysqli_connect($servername, $username,$password,$database);
