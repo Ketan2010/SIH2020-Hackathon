@@ -52,7 +52,7 @@
 		<div>
 			<h5>Enter your Details to register</h5>
 			<div>
-			<form action="http:///action_page.php" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+			<form action="" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
 				  <div>
 					<div>
 					  <label>First name</label>
