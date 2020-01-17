@@ -1,5 +1,5 @@
 <?php
-$username = 'satgahve_jayesh';
+$username = 'satgahve_jayes';
 $password = 'sihvit@123';
 $servername = 'satgaonbhosle.org';
 $database = 'satgahve_healthinsurance';
