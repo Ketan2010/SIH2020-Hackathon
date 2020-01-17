@@ -1,8 +1,8 @@
 <?php
-$username = 'satgahve_jayesh';
-$password = 'sihvit@123';
-$servername = 'satgaonbhosle.org';
-$database = 'satgahve_healthinsurance';
+$username = 'libTmdn3vO';
+$password = 'oo3ylRWvP0';
+$servername = 'remotemysql.com';
+$database = 'libTmdn3vO';
 
 $conn = mysqli_connect($servername, $username,$password,$database);
 $success = "connected";
