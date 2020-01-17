@@ -1,8 +1,8 @@
 <?php
-$username = 'epiz_25065365';
-$password = 'sih2020jay';
-$servername = 'sql108.epizy.com';
-$database = 'epiz_25065365_healthinsurance';
+$username = 'satgahve_jayesh';
+$password = 'sihvit123';
+$servername = '162.215.241.244';
+$database = 'satgahve_healthinsurance';
 
 $conn = mysqli_connect($servername, $username,$password,$database);
 $success = "connected";
