@@ -1,6 +1,6 @@
 <?php
 $username = 'satgahve_jayesh';
-$password = 'sihvit123';
+$password = 'sihvit@123';
 $servername = 'satgaonbhosle.org';
 $database = 'satgahve_healthinsurance';
 
