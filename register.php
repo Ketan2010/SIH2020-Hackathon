@@ -1,40 +1,13 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
 
+<!DOCTYPE HTML>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
   
-    
-    
-    
-
-    
-    
-	
-    
-  
-  <div>
-	  <div>
-		      
-	<button type="button">
-    <span></span>
-  </button>
-  
-  <div>
-    <ul>
-      <li>
-        <a href="#0.3_">Home</a>
-      </li>
-      <li>
-        <a href="#0.3_">Features</a>
-      </li>
-      <li>
-        <a href="#0.3_">Pricing</a>
-      </li>
-    </ul>
-    
-  </div>
-
-</div>
-
+	<?php include './includes/sidebar.php'; ?>
 	<div style="background:linear-gradient(28deg,rgba(2,0,36,1) 0%,rgba(19,19,196,1) 25%,rgba(0,212,255,1) 100%)">
 		<h1 style="font-family:Cooper black;font-style:italic;font-size:66px;color:white">
 			Register</h1>
@@ -45,33 +18,33 @@
 		<div>
 			<h5>Already registered?</h5>
 				<p></p>
-				<a href="#0.3_">login</a>
+				<a href="login.php">login</a>
 		</div>
 	</div>
 	<div style="width:22rem">
 		<div>
 			<h5>Enter your Details to register</h5>
 			<div>
-			<form action="" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+			<form action="./includes/register.php" method="POST">
 				  <div>
 					<div>
 					  <label>First name</label>
-					  <input type="text">
+					  <input type="text" name="fn">
 					</div>
 					<div>
 					  <label>Last name</label>
-					  <input type="text">
+					  <input type="text" name="ln">
 					</div>
 					<div>
 					  <label>Email ID</label>
-					  <input type="Email">
+					  <input type="Email" name="e">
 					</div>
 					<div>
 					  <label>Username</label>
 					  <div>
 						<div>
 						</div>
-						<input type="text">
+						<input type="text" name="user">
 						
 					  </div>
 					</div>
@@ -79,50 +52,23 @@
 				  <div>
 					<div>
 					  <label>Password</label>
-					  <input type="password">
+					  <input type="password" name="p">
 					</div>
 					<div>
 					  <label>Date</label>
-					  <input type="date">
+					  <input type="date" name="dob">
 					</div>
 					<div>
 					  <label>Gender</label>
 					  <select>
 						<option selected disabled value="">Choose...</option>
-						<option>Male</option>
-						<option>Female</option>
+						<option name='male'>Male</option>
+						<option name='female'>Female</option>
 					  </select>
 					</div>
 					
 				  </div>
-				  <div>
-				
-					  
-					  <button type="submit">Submit</button>
-
-					  
-					  <div>
-							<div>
-							
-							  
-								 <div>
-									<div>
-									  <button type="button">×</button>
-								  
-									</div>
-									<div>
-									  <p>Registration successful !</p>
-									</div>
-									<div>
-									  <button type="button">Ok</button>
-									</div>
-								</div>
-		  
-							</div>
-						</div>
-  
-					</div>
-				  
+					  <button type="submit" name="register">Submit</button>
 			</form>
 			
 			
@@ -137,5 +83,6 @@
     
     
   </div>
-<?php include './includes/phpcoderegister.php'; ?>
+
 </body></html>
+
