@@ -1,0 +1,13 @@
+body {
+	background-color:white; 
+}
+.navbar-toggler {
+	color:black;
+	z-index:+999;
+	
+}
+
+.transparent {
+	background:transparent;
+}
+

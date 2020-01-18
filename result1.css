@@ -1,0 +1,88 @@
+
+
+
+
+.head {
+	background-color:#2196f3;
+	width:100%;
+	height:100%;
+	margin-top:0rem;
+	z-index:-1;
+}
+/*
+.bajaj {
+	margin:0.2rem;
+	padding-bottom:2rem;
+	padding-top:2.5rem;
+	text-align:center;
+	
+}
+*/
+
+.prevresult {
+	padding-top:2rem;
+	padding-bottom:2rem;
+	box-shadow:0 0 5px #9e9e9e,0 0 4px #9e9e9e;
+}
+
+.insurancepolicy {
+	padding-top:2rem;
+	padding-bottom:2rem;
+	box-shadow:0 0 5px #9e9e9e,0 0 4px #9e9e9e;
+	margin-top:4rem;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.customBox
+{
+	padding-top:2rem;
+	padding-bottom:1rem;
+	box-shadow:0 0 5px #9e9e9e,0 0 4px #9e9e9e;
+	margin-top: 1rem;
+	
+}
+.scoreText{
+	margin:0.2rem;
+	padding-bottom:2rem;
+	padding-top:2.5rem;
+	text-align:center;
+	
+}
+fieldset
+{
+	padding: 1rem;
+	margin-top: 3%;
+	margin-bottom: 1%;
+
+}
+#question
+{
+	font-size:22px;
+}
+.quiz{
+	width:23rem;
+	margin-left:18px;
+	color:black;
+	border:3px solid black;
+	box-shadow: 0 0 4px white,0 0 5px white,0 0 9px white,0 0 8px white;
+	background-color:white;
+}
+body{
+	background:linear-gradient(225deg,rgb(51, 51, 255),rgb(204, 204, 255),rgb(230, 230, 255),rgb(255,255,255)) ;
+	
+}
+.image{
+	width:330px ; 
+	height:200px; 
+	border:1px solid black;
+	box-shadow: 3px 2px 3px rgb(154,154,154),4px 3px 5px rgb(188,188,188),5px 4px 8px rgb(218,218,218);
+}
+
+th{
+	text-align:right;
+}
